@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', 'sans-serif';
+  background-color: #fffaf0; /* ivory */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, .font-bebas {
+  font-family: 'Bebas Neue', 'Montserrat', 'sans-serif';
+  letter-spacing: 0.08em;
+} 

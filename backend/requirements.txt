@@ -1,0 +1,10 @@
+Django>=4.2
+psycopg2-binary
+redis
+newrelic
+gunicorn
+django-extensions
+ipython
+requests
+celery[redis]
+django-celery-beat

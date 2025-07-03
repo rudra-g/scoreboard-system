@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/*/__pycache__/
+backend/*/migrations/
+backend/*/migrations/__pycache__/
+*.log
+.env
+
+# Django
+/staticfiles/
+backend/static/
+/media/
+
+# Django DB (if using SQLite locally)
+db.sqlite3
+
+# Redis
+dump.rdb
+
+# React
+node_modules/
+frontend/build/
+frontend/.env
+
+# Frontend lock file (optional, keep if you want reproducible builds)
+# frontend/package-lock.json
+
+# VS Code
+.vscode/
+
+# Docker
+.env
+*.env
+
+# New Relic config
+backend/newrelic.ini
+
