@@ -13,6 +13,14 @@
 
 ---
 
+### New Relic screenshot under simulated traffic
+this traffic can be simulated using this management command populate_and_simulate
+![newrelic screenshot](screenshots/newrelic.png)
+
+
+### UI screenshot under simulated traffic
+![ui screenshot](screenshots/ui.png)
+
 ## Setup Instructions
 
 ### Docker (Recommended)
@@ -123,7 +131,7 @@
 
 ### Caching & Consistency
 
-* Cached data includes top 10 leaderboard and per-user rank/score (with short TTL).
+* Cached data includes top 10 leaderboard and per-user rank/score.
 * Redis `leaderboard:dirty` flag tracks when recalculation is needed.
 * Caches are invalidated:
 
@@ -232,9 +240,5 @@ Body:
 
 * For advanced scaling, customization, or architecture decisions, refer to HLD/LLD.
 * Code is annotated with comments for important logic, especially caching and raw SQL.
-
-```
-
----
 
 ```
