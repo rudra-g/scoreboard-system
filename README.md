@@ -13,6 +13,8 @@
 
 ---
 
+````
+
 ### New Relic screenshot under simulated traffic
 this traffic can be simulated using this management command populate_and_simulate
 ![newrelic screenshot](screenshots/newrelic.png)
@@ -28,7 +30,7 @@ this traffic can be simulated using this management command populate_and_simulat
 1. Build and start all services:
    ```bash
    docker-compose up --build
-````
+
 
 2. Backend: [http://localhost:8000](http://localhost:8000)
 3. Frontend: [http://localhost:3000](http://localhost:3000)
