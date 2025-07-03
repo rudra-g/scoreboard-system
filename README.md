@@ -234,13 +234,6 @@ Body:
 
   * `NEW_RELIC_ENVIRONMENT=production`
 
-> If `newrelic.ini` is excluded from source control, ensure it’s copied at deploy time.
+> `newrelic.ini` is excluded from source control, ensure it’s there if you are setting this up locally using your lincense keys
 
 ---
-
-## Notes
-
-* For advanced scaling, customization, or architecture decisions, refer to HLD/LLD.
-* Code is annotated with comments for important logic, especially caching and raw SQL.
-
-```
